@@ -26,3 +26,7 @@ This keeps the repository smaller and more organized.
 Phase 3
 The main difference between HTML and JSX is that JSX lets us write HTML-like code directly inside JavaScript. 
 Props make components reusable because we can pass different game information into the same component instead of creating separate code for every game. This keeps everything more organized and easier to manage.
+
+Phase 4
+One challenge I faced was connecting the JavaScript functions to my React components. I had to make sure everything was exported and imported correctly so the files could work together. I debugged the data flow by checking that the favorite games function returned the correct games before displaying them with .map(). Once everything was connected, the application displayed only my favorite games.
+
