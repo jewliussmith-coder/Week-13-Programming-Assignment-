@@ -30,3 +30,6 @@ Props make components reusable because we can pass different game information in
 Phase 4
 One challenge I faced was connecting the JavaScript functions to my React components. I had to make sure everything was exported and imported correctly so the files could work together. I debugged the data flow by checking that the favorite games function returned the correct games before displaying them with .map(). Once everything was connected, the application displayed only my favorite games.
 
+Phase 5
+While testing my program, I verified that only favorite games appeared on the webpage. I also added Minecraft to the array and tested it with both true and false favorite values. It appeared when marked as a favorite and disappeared when it wasn't. I didn't find any major bugs, and the program worked as expected. I decided not to make any changes because the code was already meeting the requirements. 
+
